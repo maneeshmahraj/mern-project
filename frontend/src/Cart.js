@@ -55,8 +55,10 @@ Lorem ipsum dolor sit amet
   eiusmod te incididunt
  
            </div>
+          
            <div className="bestseller412">
-           <div className="bestseller612">
+           
+            <div className="bestseller612">
                     <p style={{fontSize:"20px",color:"rgb(100, 83, 83)",fontWeight:"bold",margin:"10px"}}>
                         <br/>leechi</p>
                         <span style={{fontSize:"20px",color:"yellowgreen"}}><FaStar /><FaStar /><FaStar /><FaStar /></span><span style={{fontSize:"20px",color:"rgb(100, 83, 83)"}}><FaStar /></span>
@@ -70,8 +72,9 @@ Lorem ipsum dolor sit amet
                     <button className="many112" onClick={()=>{remitem(key.id)}}><FaLock /> Remove to <br/> cart</button>
                    
                     </div>
+            </div>
                     </div>
-          </div>
+       
          
     
      

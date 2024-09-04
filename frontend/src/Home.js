@@ -4,28 +4,9 @@ import { useNavigate } from "react-router-dom";
 const Home=()=>{
 
  const navigate=useNavigate();
-   const r=()=>{
-  
-    let show='';
-    let ind=0;
-    let store =document.querySelector('#img2');
-    setInterval(fun,100)
-    function fun()
-    {
-        let str="Organic Veggies & Fruits Foods";
-        let len=str.length
-        if(ind<len)
-        {
-            store.innerHTML+=str[ind];
-            ind++;
-        }else{
-            clearInterval();
-            store.innerHTML=" "
-            ind=0;
-        }
-    }
-
-   }
+ 
+        
+   
   const handleSearch=()=>{
     navigate("../searchpro")
   }
@@ -35,7 +16,7 @@ const Home=()=>{
        <div className="homemanage">
           <div className="heading">
             <h1 className="title2">100% organic Food!!</h1>
-            <p className="title" id="img2" onMouseEnter={r}>Organic Veggies & Fruits Foods</p>
+            <p className="title" id="img2" >Organic Veggies & Fruits Foods</p>
             <br/>
             <input type="text" placeholder="Enter  type of vagitables " className="input-search" />
             <button className="submitn" onClick={handleSearch}>Search now</button>
